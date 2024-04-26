@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/my%20github/MLOP-Agoor/mlflow%20model/src/mlruns/317579281513027371/6e3e8a362f1e44628bf7692d3c9c5838/artifacts
+end_time: 1713998254398
+entry_point_name: ''
+experiment_id: '317579281513027371'
+lifecycle_stage: active
+run_id: 6e3e8a362f1e44628bf7692d3c9c5838
+run_name: nebulous-shad-351
+run_uuid: 6e3e8a362f1e44628bf7692d3c9c5838
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713998242235
+status: 3
+tags: []
+user_id: ammar

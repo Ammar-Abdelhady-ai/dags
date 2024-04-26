@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/my%20github/MLOP-Agoor/mlflow%20model/src/mlruns/317579281513027371/e9509ed08797416a86028d121b588c19/artifacts
+end_time: 1713998169637
+entry_point_name: ''
+experiment_id: '317579281513027371'
+lifecycle_stage: active
+run_id: e9509ed08797416a86028d121b588c19
+run_name: handsome-dove-867
+run_uuid: e9509ed08797416a86028d121b588c19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713998157833
+status: 3
+tags: []
+user_id: ammar

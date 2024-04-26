@@ -1,0 +1,20 @@
+artifact_path: XGBClassifier/without-imbalance
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.1
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: xgb
+    xgb_version: 2.0.3
+mlflow_version: 2.12.1
+model_size_bytes: 5989267
+model_uuid: 5fa6d085c1a54b30b4b7c906fa943435
+run_id: 3f3cc98d31ef4053adb600ebc50f149a
+utc_time_created: '2024-04-24 22:37:02.196293'

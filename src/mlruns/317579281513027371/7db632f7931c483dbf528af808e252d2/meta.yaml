@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/my%20github/MLOP-Agoor/mlflow%20model/src/mlruns/317579281513027371/7db632f7931c483dbf528af808e252d2/artifacts
+end_time: 1713998495638
+entry_point_name: ''
+experiment_id: '317579281513027371'
+lifecycle_stage: active
+run_id: 7db632f7931c483dbf528af808e252d2
+run_name: judicious-mouse-80
+run_uuid: 7db632f7931c483dbf528af808e252d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713998488300
+status: 3
+tags: []
+user_id: ammar

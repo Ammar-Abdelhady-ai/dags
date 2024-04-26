@@ -1,0 +1,20 @@
+artifact_path: DecisionTreeClassifier/without-imbalance
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.18
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+mlflow_version: 2.12.1
+model_size_bytes: 143922
+model_uuid: 56f358ed261e415b9626d1c45d9acdbb
+run_id: 94e63a5347bf4f02a3e38405ea4a4ba4
+utc_time_created: '2024-04-25 04:54:41.351762'

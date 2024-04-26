@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1714015310364
+current_stage: Archived
+description: ''
+last_updated_timestamp: 1714015877543
+name: forest_best
+run_id: 61049a51357d41999f338219d7e45726
+run_link: ''
+source: file:///D:/my%20github/MLOP-Agoor/mlflow%20model/src/mlruns/317579281513027371/61049a51357d41999f338219d7e45726/artifacts/RandomForestClassifier/without-imbalance
+status: READY
+status_message: null
+storage_location: file:///D:/my%20github/MLOP-Agoor/mlflow%20model/src/mlruns/317579281513027371/61049a51357d41999f338219d7e45726/artifacts/RandomForestClassifier/without-imbalance
+user_id: null
+version: 1

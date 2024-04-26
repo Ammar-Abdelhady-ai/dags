@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/my%20github/MLOP-Agoor/mlflow%20model/src/mlruns/317579281513027371/61049a51357d41999f338219d7e45726/artifacts
+end_time: 1713998170907
+entry_point_name: ''
+experiment_id: '317579281513027371'
+lifecycle_stage: active
+run_id: 61049a51357d41999f338219d7e45726
+run_name: efficient-mare-858
+run_uuid: 61049a51357d41999f338219d7e45726
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713998110479
+status: 3
+tags: []
+user_id: ammar

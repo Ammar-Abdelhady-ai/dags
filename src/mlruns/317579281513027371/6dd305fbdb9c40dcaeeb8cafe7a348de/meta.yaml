@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/my%20github/MLOP-Agoor/mlflow%20model/src/mlruns/317579281513027371/6dd305fbdb9c40dcaeeb8cafe7a348de/artifacts
+end_time: 1713998296096
+entry_point_name: ''
+experiment_id: '317579281513027371'
+lifecycle_stage: active
+run_id: 6dd305fbdb9c40dcaeeb8cafe7a348de
+run_name: bouncy-hound-450
+run_uuid: 6dd305fbdb9c40dcaeeb8cafe7a348de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713998275952
+status: 4
+tags: []
+user_id: ammar

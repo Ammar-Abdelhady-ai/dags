@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1714015391349
+current_stage: Production
+description: ''
+last_updated_timestamp: 1714015421773
+name: forest_best
+run_id: 7db632f7931c483dbf528af808e252d2
+run_link: ''
+source: file:///D:/my%20github/MLOP-Agoor/mlflow%20model/src/mlruns/317579281513027371/7db632f7931c483dbf528af808e252d2/artifacts/DecisionTreeClassifier/with-SMOT
+status: READY
+status_message: null
+storage_location: file:///D:/my%20github/MLOP-Agoor/mlflow%20model/src/mlruns/317579281513027371/7db632f7931c483dbf528af808e252d2/artifacts/DecisionTreeClassifier/with-SMOT
+user_id: null
+version: 2

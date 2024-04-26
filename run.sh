@@ -1,0 +1,1 @@
+mlflow models serve -m "file:///D:/my%20github/MLOP-Agoor/mlflow%20model/src/mlruns/317579281513027371/e9509ed08797416a86028d121b588c19/artifacts/RandomForestClassifier/with-SMOT" --port 8000 --env-manager=local
