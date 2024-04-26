@@ -89,3 +89,11 @@ mlflow server --host 0.0.0.0 --port 5050 --backend-store-url mysql://root:ammar@
 
 '''
 
+
+'''
+MLFLOW_TRACKING_URI=https://dagshub.com/Ammar-Abdelhady-ai/dags.mlflow \
+MLFLOW_TRACKING_USERNAME=Ammar-Abdelhady-ai \
+MLFLOW_TRACKING_PASSWORD=ef431842b27444ab5c1120c9ff501d7b6d2ccdaf \
+python script.py
+'''
+

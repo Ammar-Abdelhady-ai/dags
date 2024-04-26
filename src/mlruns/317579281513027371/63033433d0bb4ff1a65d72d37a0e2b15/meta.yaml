@@ -1,4 +1,4 @@
-artifact_uri: file:///D:/my%20github/MLOP-Agoor/mlflow%20model/src/mlruns/317579281513027371/63033433d0bb4ff1a65d72d37a0e2b15/artifacts
+artifact_uri: file:///d:/my%20github/MLOP-Agoor/dags/src/mlruns/317579281513027371/63033433d0bb4ff1a65d72d37a0e2b15/artifacts
 end_time: 1713998497065
 entry_point_name: ''
 experiment_id: '317579281513027371'

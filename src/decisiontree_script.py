@@ -103,16 +103,15 @@ X_train_resampled, y_train_resampled = smote.fit_resample(X_train_final, y_train
 
 
 
-mlflow.set_tracking_uri("http://localhost:5050/")
+mlflow.set_tracking_uri("https://dagshub.com/Ammar-Abdelhady-ai/dags.mlflow")
 def train_model(X_train, y_train, plot_name, splitter: str, max_depth: int, class_weight=None):
     clf = DecisionTreeClassifier(splitter=splitter, max_depth=max_depth, random_state=45, criterion="gini", class_weight=class_weight)
     clf_name = clf.__class__.__name__
 
-    mlflow.set_experiment(experiment_name="churn-detection-db")
+    mlflow.set_experiment(experiment_name="churn-detection-dags")
 
     with mlflow.start_run() as run:
         mlflow.set_tag("clf", clf_name)
-        mlflow.set_tracking_uri("http://localhost:5050/")
 
         clf.fit(X_train, y_train)
 

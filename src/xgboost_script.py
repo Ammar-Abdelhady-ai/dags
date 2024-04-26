@@ -94,7 +94,7 @@ smote = SMOTE(sampling_strategy=0.8)
 
 X_train_resampled, y_train_resampled = smote.fit_resample(X_train_final, y_train)
 
-mlflow.set_tracking_uri("http://localhost:5050/")
+mlflow.set_tracking_uri("https://dagshub.com/Ammar-Abdelhady-ai/dags.mlflow")
 
 def train_model(X_train, y_train, plot_name, n_estimators: int, learning_rate: float, max_depth: int, scale=None):
 
@@ -102,10 +102,9 @@ def train_model(X_train, y_train, plot_name, n_estimators: int, learning_rate: f
                         learning_rate=learning_rate, scale_pos_weight=scale)
     clf_name = clf.__class__.__name__
 
-    mlflow.set_experiment(experiment_name="churn-detection-db")
+    mlflow.set_experiment(experiment_name="churn-detection-dags")
     with mlflow.start_run() as run:
         mlflow.set_tag("clf", clf_name)
-        mlflow.set_tracking_uri("http://localhost:5050/")
 
         clf.fit(X_train, y_train)
 
